@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.box {
+    background-color: #111;
+    border-color: #111;
+}
+
+.box,
+input,
+button {
+    border-radius: 0 50px 0 50px !important;
+}
+
+input::placeholder {
+    color: #999999;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- Font Awesom -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="py-5">
+        <div class="container p-5 text-center">
+            <h1 class="text-uppercase fw-bolder mb-5">Age Calculator</h1>
+            <input class="form-control px-5 mb-3" type="text" id="myName" placeholder="enter your name">
+            <input class="form-control px-5 mb-4" type="date" id="myAge" placeholder="mm/dd/yyyy">
+            <button id="btnCulc" class="btn btn-primary px-5 mb-5">Calculate</button>
+
+            <div class="col-10 mx-auto" id="data"></div>
+
+            <div class="box p-4 text-start border border-5">
+                <div class="birth-date mb-4">
+                    <h5>My Name:</h5>
+                    <h6 class="text-secondary"></h6>
+                </div>
+                <div class="birth-date mb-4">
+                    <h5>BirthDate:</h5>
+                    <h6 class="text-secondary"></h6>
+                </div>
+                <div class="age mb-4">
+                    <h5>Age:</h5>
+                    <h6 class="text-secondary"></h6>
+                </div>
+                <div class="month-passed mb-4">
+                    <h5>Month Passed:</h5>
+                    <h6 class="text-secondary"></h6>
+                </div>
+                <div class="week-passed mb-4">
+                    <h5>Week Passed:</h5>
+                    <h6 class="text-secondary"></h6>
+                </div>
+                <div class="day-passed mb-4">
+                    <h5>Day Passed:</h5>
+                    <h6 class="text-secondary"></h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
